@@ -1,0 +1,161 @@
+/* 
+  Student Name: Eyimofe Oladipo
+  File Name: style.css
+  Date: 07/19/2023
+*/
+
+body, header, nav, footer, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* Style rule for header content*/
+
+header{
+  background: linear-gradient(to right, #1F2F98, #2EAAFA, #1F2F98);
+  margin-top: 0%;
+  padding: 0.25%;
+}
+
+header h1{
+  text-align: center;
+  font-size: 150%;
+  font-family: 'REM', sans-serif;
+  padding: 1% 1% 0% 1%;
+  color: #ffffff;
+}
+
+header h6{
+  text-align: center;
+  font-family: 'REM', sans-serif;
+  color: #ffffff;
+}
+
+/* header img{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* CSS Style rule for body and image. */
+
+img{
+  max-width: 100%;
+  display: block;
+/* margin-left: 2%; */
+}
+
+/* Style rules for navigation area*/
+
+#nav img{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2%;
+}
+nav{
+  background:  #2641c2;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+
+nav li{
+  display: inline-block ;
+  font-size: 100%;
+  font-family: 'REM', sans-serif;
+  font-weight: normal;
+}
+
+nav li a{
+  display: block;
+  color: #ffffff;
+  padding: 0.5em 2em 0.5em 2em ;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color :#2EAAFA;
+}
+
+/*Style rules for main content */
+main{
+  /* padding-left: 2%;
+  padding-right: 2%; */
+  padding: 2%;
+  font-family: Georgia, “Times New Roman”, serif;
+  overflow: auto;
+}
+
+
+#image{
+  width: 45%;
+  float: left;
+}
+#text{
+  width: 20%;
+  float: right;
+}
+
+main h3{
+  color: #18188b;
+}
+
+main p{
+  color: #18188b;
+  font-family: 'Rubik', sans-serif;
+}
+main img{
+  border-radius: 40%;
+}
+/* Style rules for footer content*/
+
+footer{
+  text-align: center;
+  font-size: 0.85em;
+  background: #2641c2;
+  color: #e3eaf8;
+  padding: 0.5% 0% 0.5% 0%;
+
+}
+
+footer p{
+  color: #ffffff;
+}
+footer a{
+  color: aqua;
+}
+/* Style rules for mobile viewport */
+header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* Style rule for the map */
+iframe{
+  width: 100%;
+}
+
+
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 900px){
+  #tropical, #deshedding, #nail{
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+  }
+}
+
+/* Media Query for Large Desktop Viewport */
+@media screen and (min-width: 1280px){
+  #tropical, #deshedding, #nail{
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+  }
+}
